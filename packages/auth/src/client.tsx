@@ -231,7 +231,7 @@ export const getSession = async (
         }
       } catch (e) {
         // error: Cannot set headers after they are sent to the client
-        // console.log('specialdataErrorSetRes', e)
+        console.log('specialdataErrorSetRes', e)
       }
     }
   }
